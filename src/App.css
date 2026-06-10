@@ -22,7 +22,44 @@
     outline-offset: 2px;
   }
 }
+.fc {
+  font-family: inherit;
+}
+.fc-event {
+  border: none !important;
+  border-radius: 14px !important;
+  padding: 4px !important;
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+.fc-event:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0,0,0,.15);
+  cursor: pointer;
+}
+.fc-day-today {
+  background-color: rgba(124,58,237,.08)!important;
+}
+.dark .fc-day-today {
+  background-color: rgba(124,58,237,.15)!important;
+}
+.fc-col-header-cell {
+  background: rgba(124,58,237,.08);
+  padding: 14px 0;
+  font-weight: 600;
+  color: black;
+}
+.dark .fc-col-header-cell {
+  background: rgba(124,58,237,.15);
+}
+.fc-scroller {
+  scrollbar-width: thin;
+}
 
+.fc-scrollgrid {
+  border-radius:18px;
+  overflow:hidden;
+}
 .hero {
   position: relative;
 

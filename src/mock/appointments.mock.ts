@@ -1,29 +1,40 @@
 export const appointmentData = [
-{
-    avatar:"https://ui-avatars.com/api/?name=Sarah+Johnson",
-    id: 1,
+  {
+    id: "1",
     customer: "Sarah Johnson",
     service: "Hair Coloring",
     staff: "Emma Wilson",
-    time: "10:00 AM",
-    status: "Confirmed",
+
+    start: "2026-06-06T10:00:00",
+    end: "2026-06-06T12:00:00",
+
+    price: 120,
+    status: "confirmed",
   },
+
   {
-    avatar:"https://ui-avatars.com/api/?name=Olivia+Brown",
-    id: 2,
+    id: "2",
     customer: "Olivia Brown",
     service: "Manicure",
     staff: "Sophia Martinez",
-    time: "11:30 AM",
-    status: "Pending",
+
+    start: "2026-06-07T11:30:00",
+    end: "2026-06-07T12:30:00",
+
+    price: 25,
+    status: "pending",
   },
+
   {
-    avatar:"https://ui-avatars.com/api/?name=Emily+Davis",
-    id: 3,
+    id: "3",
     customer: "Emily Davis",
     service: "Facial Treatment",
     staff: "Emma Wilson",
-    time: "02:00 PM",
-    status: "Completed",
+
+    start: "2026-06-08T14:00:00",
+    end: "2026-06-08T15:30:00",
+
+    price: 60,
+    status: "completed",
   },
 ]
