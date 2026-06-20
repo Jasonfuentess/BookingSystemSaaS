@@ -13,7 +13,7 @@ type ServiceGridProps = {
 
   onDeactivate: (service: Service) => void
 
-  onDelete: (service: Service) => void
+  
 }
 
 export function ServiceGrid({
@@ -21,7 +21,7 @@ export function ServiceGrid({
   onEdit,
   onDuplicate,
   onDeactivate,
-  onDelete
+  
 }: ServiceGridProps) {
 
   return (
@@ -32,8 +32,7 @@ export function ServiceGrid({
         gap-6
         md:grid-cols-2
         xl:grid-cols-3
-      "
-    >
+      ">
 
       {services.map((service) => (
 
@@ -43,7 +42,6 @@ export function ServiceGrid({
   onEdit={onEdit}
   onDuplicate={onDuplicate}
   onDeactivate={onDeactivate}
-  onDelete={onDelete}
 />
 
       ))}
